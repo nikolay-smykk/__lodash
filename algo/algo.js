@@ -45,3 +45,7 @@ function areThereDuplicates(...args) {
   }
   return false;
 }
+
+function areThereDuplicates() {
+  return new Set(arguments).size !== arguments.length;
+}
