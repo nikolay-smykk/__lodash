@@ -1,10 +1,10 @@
-export const add = (a, b) => {
+const add = (a, b) => {
   return a + b;
 };
-export const divide = (a, b) => {
+const divide = (a, b) => {
   return a / b;
 };
 
-export const ceil = (x){
+const ceil = (x){
     return Math.ceil(x)
 }
