@@ -4,3 +4,7 @@ export const add = (a, b) => {
 export const divide = (a, b) => {
   return a / b;
 };
+
+export const ceil = (x){
+    return Math.ceil(x)
+}
