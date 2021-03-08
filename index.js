@@ -11,3 +11,5 @@ const ceil = (x) => {
 const сenturyFromYear = (year) => {
   return Math.ceil(year / 100);
 };
+
+const reverseString = (string) => [...string].reverse().join('');
