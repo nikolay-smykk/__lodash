@@ -13,3 +13,6 @@ const сenturyFromYear = (year) => {
 };
 
 const reverseString = (string) => [...string].reverse().join('');
+
+const maxBy = (arr, key) => arr.reduce((a,b) => a[key] >= b[key] ? a : b, {});
+
